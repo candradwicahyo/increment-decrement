@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+:root {
+  --font: 'Poppins';
+  --gray: #f4f7fe;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: var(--gray);
+}
+
+.container {
+  position: relative;
+  width: 350px;
+  overflow: hidden;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.box .button {
+  font-size: 26px;
+  font-weight: bold;
+  color: royalblue;
+  cursor: pointer;
+}
+
+.box .number {
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #333;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
