@@ -18,7 +18,7 @@ sebuah program sederhana bernama "increment decrement" yang dibuat dengan bahasa
 
 ### live demo & preview
 
-![image](https://githuh.com/candradwicahyo/increment-decrement/blob/master/preview.jpg)
+![image](https://github.com/candradwicahyo/increment-decrement/blob/master/preview.jpg)
 
 [tekan link ini menuju demo program](https://candradwicahyo.github.io/increment-decrement)
 
